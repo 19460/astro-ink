@@ -3,31 +3,31 @@ import type{ NavItems } from './types'
 export const NAV_ITEMS: NavItems = {
     home: {
         path: '/',
-        title: 'home'
+        title: '主页'
     },
     blog: {
         path: '/blog',
-        title: 'blog'
+        title: '博客'
     },
     tags: {
         path: '/tags',
-        title: 'tags'
+        title: '标签'
     },
     media: {
         path: '/media',
-        title: 'media'
+        title: '媒体'
     },
     about: {
         path: '/about',
-        title: 'about'
+        title: '关于'
     }
 }
 
 export const SITE = {
     // Your site's detail?
-    name: 'Ink',
-    title: 'Astro - Ink',
-    description: 'Crisp, minimal, personal blog theme for Astro',
+    name: '王洪涛\'s Blog',
+    title: 'WHT\'s Blog',
+    description: '欢迎光临',
     url: 'https://astro-ink.vercel.app',
     githubUrl: 'https://github.com/one-aalam/astro-ink',
     listDrafts: true
